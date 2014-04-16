@@ -1,10 +1,10 @@
-# Public: Install Zabbix.
+# Public: Install Zabbix Agent.
 #
 # Examples
 #
-#   include zabbix
+#   include zabbix-agent
 class gdal {
-  package { 'zabbix':
+  package { 'zabbix-agent':
     ensure => installed,
   }
 }

@@ -1,7 +1,7 @@
 require 'spec_helper'
-describe 'zabbix' do
+describe 'zabbix-agent' do
   it do
-    should contain_class("zabbix")
+    should contain_class("zabbix-agent")
     should contain_package("zabbix").with({
       :ensure => "installed",
     })
