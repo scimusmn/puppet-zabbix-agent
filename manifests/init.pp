@@ -3,7 +3,7 @@
 # Examples
 #
 #   include zabbix-agent
-class gdal {
+class zabbix {
   package { 'zabbix':
     ensure => installed,
   }
