@@ -2,10 +2,10 @@
 #
 # Examples
 #
-#   include zabbix-agent
-class zabbix-agent {
+#   include zabbixagent
+class zabbixagent {
   package { 'zabbix':
-    ensure => installed,
+    ensure          => installed,
     install_options => [
       '--agent-only',
     ],

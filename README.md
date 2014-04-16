@@ -5,7 +5,7 @@ Installs the [Zabbix Agent](https://www.zabbix.com/documentation/2.0/manual/conc
 ## Usage
 
 ```puppet
-include zabbix-agent
+include zabbixagent
 ```
 
 ## Required Puppet Modules
