@@ -3,7 +3,7 @@
 # Examples
 #
 #   include zabbix-agent
-class zabbix {
+class zabbix-agent {
   package { 'zabbix':
     ensure => installed,
     install_options => [
