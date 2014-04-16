@@ -1,4 +1,4 @@
-# Puppet Module for Zabbix Agent
+# Zabbix Agent Puppet Module for Boxen
 
 Installs the [Zabbix Agent](https://www.zabbix.com/documentation/2.0/manual/concepts/agent)
 
