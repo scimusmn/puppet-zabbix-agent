@@ -6,5 +6,8 @@
 class zabbix {
   package { 'zabbix':
     ensure => installed,
+    install_options => [
+      '--agent-only',
+    ],
   }
 }
