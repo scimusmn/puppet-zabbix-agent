@@ -1,4 +1,10 @@
-# This is a placeholder class.
-class zabbix {
-  anchor { 'Hello_World': }
+# Public: Install Zabbix.
+#
+# Examples
+#
+#   include zabbix
+class gdal {
+  package { 'zabbix':
+    ensure => installed,
+  }
 }
