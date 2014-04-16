@@ -4,7 +4,7 @@
 #
 #   include zabbix-agent
 class gdal {
-  package { 'zabbix-agent':
+  package { 'zabbix':
     ensure => installed,
   }
 }
