@@ -7,7 +7,7 @@ class zabbixagent {
   package { 'zabbix':
     ensure          => installed,
     install_options => [
-      '--agent-only',
+      '--without-server-proxy',
     ],
   }
 }
